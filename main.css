@@ -1,0 +1,96 @@
+img {
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 272px;
+    height: auto;
+    
+    
+   
+}
+
+.button {
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial;
+     
+}
+
+.button:hover {
+
+}
+
+.button-sign {
+    border: none;
+    text-align: center;
+    padding: 7px 14px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    background-color: #4285f4;
+    color: white;   
+    margin-right: 20px; 
+    margin-left: 30px;
+}
+
+.input-container {
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    
+}
+
+.searchbar {
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none; 
+}
+
+nav a {
+    font-size: 12px; 
+    font-family: Arial;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.left-nav {
+    padding: 15px 10px 10px 20px;
+
+}
+
+.material-icons {
+    margin-top: -28px;
+    margin-right: 100px;
+    color: gray;
+    float: right;
+}
+
+.material-icons:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+.right-nav {
+    margin-top: -30px;
+    float: right;
+    
+}
+    
+nav a:hover {
+    text-decoration: underline;
+}
