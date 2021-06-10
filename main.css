@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     display: block;
     margin-top: 150px;
@@ -8,15 +13,27 @@ img {
 }
 
 .button {
-    border: none;
+    border: 1px solid #f0efef;
     text-align: center;
     padding: 10px 20px;
     border-radius: 4px;
     font-size: 14px;
-    font-family: Arial;  
+    font-family: Arial;
+    color:rgb(100, 98, 98);
+    margin: 6px;
+    background-color: #f0efef;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .button:hover {
+    border: 1px solid grey;
+    color:black;
+    box-shadow: 0 1px 1px rgba(49, 48, 48, 0.19), 0 1px 1px rgba(49, 48, 48, 0.19);
 
 }
 
@@ -98,4 +115,30 @@ nav a {
     
 nav a:hover {
     text-decoration: underline;
+}
+
+.left-footer a {
+    font-size: 14px; 
+    font-family: Arial;
+    color: rgba(100, 99, 99, 0.87);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.right-footer a {
+    font-size: 14px; 
+    font-family: Arial;
+    color: rgba(100, 99, 99, 0.87);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 650px;
+    background-color: #f0efef;
+    border: 1px solid #e0e0e0;
+    padding: 12px 0px 20px 0px;   
+    
 }
